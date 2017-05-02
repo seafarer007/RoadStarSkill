@@ -1,0 +1,118 @@
+﻿{
+  "intents": [
+    {
+      "intent": "HelloIntent",
+      "slots": []
+    },
+    {
+      "intent": "ContactBasedPolicyIntent",
+      "slots": [
+        {
+          "name": "state_type",
+          "type": "LIST_OF_STATES"
+        }
+      ]
+    },
+    {
+      "intent": "AllPoliciesByLocationIntent",
+      "slots": [
+        {
+          "name": "categories",
+          "type": "LIST_OF_CATEGORIES"
+        },
+        {
+          "name": "state_type",
+          "type": "LIST_OF_STATES"
+        }
+      ]
+    },
+    {
+      "intent": "IDBasedPolicyIntent",
+      "slots": [
+        {
+          "name": "id",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    },
+    {
+      "intent": "CategoryBasedPolicyIntent",
+      "slots": []
+    },
+    {
+      "intent": "FuelBasedIntent",
+      "slots": []
+    },
+
+    {
+      "intent": "NearbyStationIntent",
+      "slots": [
+        {
+          "name": "state_type",
+          "type": "LIST_OF_STATES"
+        },
+        {
+          "name": "fuel_type",
+          "type": "LIST_OF_TYPES"
+        }
+      ]
+    },
+    {
+      "intent": "NearbyStationNearMeIntent",
+      "slots": [
+
+        {
+          "name": "fuel_type",
+          "type": "LIST_OF_TYPES"
+        }
+      ]
+    },
+    {
+      "intent": "AllStationCountIntent",
+      "slots": [
+        {
+          "name": "fuel_type",
+          "type": "LIST_OF_TYPES"
+        }
+      ]
+    },
+    {
+      "intent": "NearbyStationCountIntent",
+      "slots": [
+        {
+          "name": "state_type",
+          "type": "LIST_OF_STATES"
+        },
+        {
+          "name": "fuel_type",
+          "type": "LIST_OF_TYPES"
+        }
+      ]
+    },
+    {
+      "intent": "NearbyStationByZipIntent",
+      "slots": [
+        {
+          "name": "zipcode",
+          "type": "AMAZON.NUMBER"
+        },
+        {
+          "name": "fuel_type",
+          "type": "LIST_OF_TYPES"
+        }
+      ]
+    },
+    {
+      "intent": "AMAZON.CancelIntent",
+      "slots": []
+    },
+    {
+      "intent": "AMAZON.StopIntent",
+      "slots": []
+    },
+    {
+      "intent": "AMAZON.HelpIntent",
+      "slots": []
+    }
+  ]
+}

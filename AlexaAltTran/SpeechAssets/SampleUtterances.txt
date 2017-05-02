@@ -1,0 +1,23 @@
+﻿HelloIntent Hi 
+NearbyStationIntent Find all {fuel_type} stations in {state_type}
+NearbyStationIntent Find {fuel_type} stations in {state_type}
+NearbyStationByZipIntent Find all {fuel_type} stations near {zipcode}
+NearbyStationByZipIntent Find {fuel_type} stations near {zipcode}
+NearbyStationNearMeIntent Find {fuel_type} station 
+NearbyStationNearMeIntent Find nearest {fuel_type} station 
+NearbyStationCountIntent How many {fuel_type} stations in {state_type}
+AllStationCountIntent How many {fuel_type} stations in the US
+AllStationCountIntent How many {fuel_type} stations are in the US
+CategoryBasedPolicyIntent Find all categories
+CategoryBasedPolicyIntent Find all policies
+FuelBasedIntent Find all Fuel Types
+AllPoliciesByLocationIntent Get all {categories} policies in {state_type}
+AllPoliciesByLocationIntent Find all {categories} policies in {state_type}
+AllPoliciesByLocationIntent Find{categories} policies in {state_type}
+IDBasedPolicyIntent Give me details on policy number {id}
+IDBasedPolicyIntent tell me about policy number {id}
+ContactBasedPolicyIntent Get me All Contacts for {state_type}
+ContactBasedPolicyIntent Give me All Contacts in {state_type}
+AMAZON.CancelIntent Cancel
+AMAZON.StopIntent  Stop 
+AMAZON.HelpIntent  Help 
