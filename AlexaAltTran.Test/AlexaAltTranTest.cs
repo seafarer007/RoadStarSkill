@@ -17,7 +17,7 @@ namespace AlexaAltTran.Test
         static HttpClient client = new HttpClient();
         private static string allFuelStations = @"/api/alt-fuel-stations/v1.json?api_key={0}&limit={1}&zip={2}&fuel_type={3}";
         private static string allFuelStationsCount = @"/api/alt-fuel-stations/v1.json?api_key={0}&fuel_type={1}";
-        private static string client_id = "NJiRLfpeHsI5CPHVFq4W10WO3IZYGssuxTqeSw2V";
+        private static string client_id = "*****";
         private static string amazon_id = "amzn1.ask.skill.1139ca56-de78-4375-8b8a-903816f6db7e";
         private static string host = "https://developer.nrel.gov";
         private static string locationBasedPolicies = @"/api/transportation-incentives-laws/v1.json?api_key={0}&limit={1}&jurisdiction={2}&incentive_type={3}";
