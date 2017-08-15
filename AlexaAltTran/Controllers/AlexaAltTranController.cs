@@ -30,7 +30,7 @@ namespace AlexaAltTran.Controllers
         private static string allNearbyFuelStationsCount = @"/api/alt-fuel-stations/v1.json?api_key={0}&state={1}&fuel_type={2}";
         #endregion
 
-        private static string client_id = "NJiRLfpeHsI5CPHVFq4W10WO3IZYGssuxTqeSw2V";
+        private static string client_id = "*****";
 
         #region Policy and Incentives
 
