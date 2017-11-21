@@ -77,11 +77,7 @@ namespace AlexaAltTran.Helper
                 
                   byte[] bodyReq = await request.Content.ReadAsByteArrayAsync();  
 
-
-                if (!SpeechletRequestSignatureVerifier.VerifyRequestSignature(bodyReq, signature, signatureCertChainUrl))
-                {
-                    return new HttpResponseMessage(System.Net.HttpStatusCode.BadRequest);
-                }
+          
 
 
             }
